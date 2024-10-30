@@ -1,13 +1,25 @@
+#nav ul li {
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+    column-gap: 20px;
+}
+
 body {
     background-color: lightgoldenrodyellow
 }
 
 h1 {
     color:brown;
-    text-align: right;
+    text-align: center;
 }
 
 p {
     font-family: sans-serif;
     font-size: 5rem;
+}
+
+footer{
+    text-align: center;
 }
