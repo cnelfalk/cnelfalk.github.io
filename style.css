@@ -1,10 +1,14 @@
+#nav-bar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
-
-
-#nav ul li {
+#nav-content ul li {
     display: inline-block;
     list-style: none;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 #logo {
@@ -12,23 +16,25 @@
 }
 
 .navoption {
-    color:white;
+    font-family: sans-serif;
+    color: rgb(170, 168, 168);
     background: rgba(245, 243, 243, 0.75);
     border: 10px solid rgba(255, 255, 255, 0.01);
-    border-radius:16px;
+    border-radius: 16px;
 }
 
-.navoption:visited { text-decoration: none; color:grey}
-.navoption:hover { text-decoration: none; color:grey}
-.navoption:focus { text-decoration: none; color:rgb(41, 41, 41)}
-.navoption:hover, .navoption:active { text-decoration: none; color:rgba(128, 128, 128, 0.733)}
+a:link { text-decoration: none}
+a:visited { text-decoration: none; color:grey}
+a:hover { text-decoration: none; color:grey}
+a:focus { text-decoration: none; color:rgb(41, 41, 41)}
+a:hover, .navoption:active { text-decoration: none; color:rgba(128, 128, 128, 0.733)}
 
 body {
     background-color: lightgoldenrodyellow
 }
 
 h1 {
-    color:brown;
+    color:rgb(182, 41, 41);
     text-align: center;
 }
 
@@ -36,21 +42,20 @@ p {
     font-family: sans-serif;
     font-size: 5rem;
 }
-
-.canchas{
+ #contenedor {
     display: flex;
     flex-direction: row;
-  
+    margin: 10px 0 10px 0;
+    background-color: greenyellow;
 }
 
-.canchas img{
-    border-radius: 100%;
+#contenedor p{
+    font-size: 20px;
 }
 
-.canchas p{
-    font-size: 11px;
-}
-
-footer{
-    text-align: center;
+#contenedor img{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
 }

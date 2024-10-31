@@ -9,28 +9,51 @@
         <link rel="icon" type="image/x-icon" href="media/futmos_site.ico">
     </head>
     <body>
-        <nav id="nav">
-            <ul>
-                <li>
-                   <a href="index.html"><img src="media/futmos_logo.png" alt="futmos_logo" id="logo"></a>
-                </li>
-                <li>
-                   <a href="https://wa.me/543704772001" class="navoption">Contactos</a> <!--aca dejo como contacto mi nro de wsp, por si algun cliente tiene una queja-->
-                </li>
-            </ul>
-            <hr>
+        <nav id="nav-bar">
+            <div id="nav-content">
+                <ul>
+                    <li>
+                    <a href="index.html"><img src="media/futmos_logo.png" alt="futmos_logo" id="logo"></a>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Buscar canchas...">
+                    </li>
+                    <li>
+                    <a href="https://wa.me/543704772001" class="navoption">Contactos</a> <!--aca dejo como contacto mi nro de wsp, por si algun cliente tiene una queja-->
+                    </li>
+            
+                    <li>
+                        <a href="register.html" class="navoption">Registrarse</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
         </nav>
-        
+    
         <div class="container"></div>
-        <h1>¡Bienvenido a futMos, su sitio de reserva de canchas de confianza!</h1>
-        <p>Disfrute de nuestros servicios.</p>
+            <h1>¡Bienvenido a futMos, su sitio de reserva de canchas de confianza!</h1>
+            <p>Disfrute de nuestros servicios.</p>
         
-<div class="canchas">
-    <p>Estas son nuestras canchas disponibles:</p>
-    <img src="media/canchafutbol-1.jpg" alt="cancha de futbol">
-    <img src="media/canchapadel-2.jpg" alt="cancha de padel">
-    <img src="media/canchabasquet-3.jpg" alt="cancha de basquet">
-</div>
+            <div id="contenedor">
+                <p>¿Qué tipo de cancha desea?</p>
+                <div class="deporte">
+                    <a href="busqueda.html">
+                        <img src="media/futbol-pelota.png" alt="futbol">
+                    </a>
+                </div>
+                <div class="deporte">
+                    <a href="busqueda.html">
+                        <img src="media/padel-pelota.png" href="register.html" alt="padel">
+                    </a>
+                </div>
+                <div class="deporte">
+                    <a href="busqueda.html">
+                        <img src="media/basquet-pelota.png" alt="basquet">
+                    </a>
+                </div>
+            </div>
+
+            <button>Reservar</button>
 
         <footer>
             futMos © 2024. Todos los derechos reservados.
